@@ -1,6 +1,6 @@
 var container = document.querySelector('#container');
 var panorama = new
-PANOLENS.ImagePanorama('hhttps://github.com/RizkyFitriani1312/posttest5_122_Rizky-Fitriani_VAR/blob/main/images/52137224162_4dd22c4028_o.jpg');
+PANOLENS.ImagePanorama('https://github.com/RizkyFitriani1312/posttest5_122_Rizky-Fitriani_VAR/blob/main/images/52137224162_4dd22c4028_o.jpg');
 
 var viewer = new PANOLENS.Viewer({ container: container });
 viewer.add(panorama);
